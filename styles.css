@@ -1,0 +1,190 @@
+body {
+    background-color: rgb(116, 15, 216);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    min-height: 100%;
+    line-height: 1.5;
+    padding: 2.5em 0;
+    /* display: flex; */
+  
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    gap: 3vh;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 0px;
+  
+  }
+  
+  p {
+    text-align: center;
+    font-size: 23px;
+    margin: 10px;
+    /* padding-top: 30px; */
+  }
+  
+  
+  
+ 
+  
+  .inputs {
+    width: 100%;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  
+  }
+  
+  input[type='text'],
+  input[type='number'] {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 50px;
+  }
+  
+  
+  .input-holder {
+    width: 100%;
+    padding: 40px;
+  }
+  
+  
+  .calculate {
+    width: 40%;
+    margin: 10px auto;
+    display: grid;
+    align-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  
+  .message {
+    color: white;
+  }
+  /* this is for tablet */
+  @media screen and (max-width:900px){
+  
+    body{
+  
+      background-color: rgb(116, 15, 216);
+    }
+  
+  
+    
+  
+    .container {
+      flex-direction: column;
+      gap: 3vh;
+      padding-left: 20px;
+  
+  
+  
+    }
+  
+    h1 {
+  
+      text-align: center;
+      padding-left: 20px;
+      justify-self: center;
+    }
+  
+    p {
+      text-align: center;
+      padding-left: 20px;
+  
+    }
+  
+  
+    .inputs {
+      width: 100%;
+      margin: 5px auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      
+  
+    }
+  
+   button{
+  
+    
+    padding-left: 40px;
+   }
+  
+    
+  }
+  
+  /* this is for phone screens */
+  @media screen and (max-width:450px){
+  
+    body {
+      background-color: rgb(116, 15, 216);
+  
+  
+    }
+  
+    .container {
+      flex-direction: column;
+      gap: 3vh;
+      padding-left: 20px;
+  
+  
+  
+    }
+  
+    h1 {
+  
+      text-align: center;
+      padding-left: 20px;
+      justify-self: center;
+    }
+  
+    p {
+      text-align: center;
+      padding-left: 20px;
+  
+    }
+  
+  
+    .inputs {
+      width: 100%;
+      margin: 5px auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      
+  
+    }
+  
+   button{
+  
+    background-color: aqua;
+    padding-left: 40px;
+   }
+  
+  
+  
+  
+  }
+  
+  
