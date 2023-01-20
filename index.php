@@ -10,6 +10,37 @@
 <body>
 <h1>NYEWASCO WATER COMPANY</h1>
 <p>Bringing water to you</p>
+<div class="table">
+
+<table>
+  <tr>
+    <th>Units</th>
+    <th>Cost per unit(ksh)</th>
+    
+  </tr>
+  <tr>
+    <td>For 0-20 unit</td>
+    <td>Ksh. 35 per unit</td>
+   
+  </tr>
+  <tr>
+    <td>For 21-49 units</td>
+    <td>Ksh. 40 per unit</td>
+  
+  </tr>
+  <tr>
+    <td>For 50-100 units</td>
+    <td>Ksh. 45 per uni</td>
+  
+  </tr>
+  <tr>
+    <td>For units above 100</td>
+    <td>Ksh. 50 per unit</td>
+  
+  </tr>
+</table>
+</div>
+
     <form method="post" action="index.php">
   <div class="inputs">
     <div class="input-holder">

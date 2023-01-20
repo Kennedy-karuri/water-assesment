@@ -18,6 +18,31 @@ body {
     display: flex;
     gap: 3vh;
   }
+
+  table{
+
+    
+    border: 2px solid #dadada;
+    border-radius: 10px;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    justify-content: center;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+    
+  }
+  table, th, td {
+    justify-content:center;
+    justify-self: center;
+  }
+
+
+
   
   h1 {
     text-align: center;
